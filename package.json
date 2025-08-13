@@ -1,0 +1,14 @@
+{
+  "name": "hybridapp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "True hybrid app (Cordova) with login/signup toggle and dashboard",
+  "scripts": {
+    "prepare": "echo Ready",
+    "build:android:debug": "cordova build android --debug",
+    "build:android:release": "cordova build android --release"
+  },
+  "devDependencies": {
+    "cordova": "^12.0.0"
+  }
+}
